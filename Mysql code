@@ -1,0 +1,31 @@
+Create schema data (contains two tables 1.members & 2.admin )
+CREATE TABLE "members" (
+  "id" int(10) PRIMARY KEY ,unsigned NOT NULL auto_increment,
+  "first_name" varchar(45) NOT NULL,
+  "last_name" varchar(45) NOT NULL,
+  "email" varchar(45) NOT NULL,
+  "uname" varchar(45) NOT NULL, Unique,
+  "pass" varchar(45) NOT NULL,
+  "regdate" date NOT NULL,
+)
+
+CREATE TABLE `data`.`admin` (
+  `id` INT NOT NULL,
+  `uname` VARCHAR(45) NOT NULL,
+  `pwd` VARCHAR(45) NOT NULL,
+  PRIMARY KEY (`id`));
+
+INSERT INTO `data`.`admin` (`id`, `uname`, `pwd`) VALUES ('1', 'sai', 'sanny');
+
+
+Create schema all 
+CREATE TABLE "documents" (
+  "Doc_id" int(11) PRIMARY KEY ,NOT NULL, auto_increment,
+  "fileName" varchar(100) NOT NULL,
+  "type" varchar(45) NOT NULL,
+  "upload_time" , TIMESTAMP, CURRENT_TIMESTAMP
+  "content" , mediumblob, NN
+  "upload_by" varchar(45) NOT NULL,
+)
+
+
