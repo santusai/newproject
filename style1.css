@@ -1,0 +1,145 @@
+@CHARSET "ISO-8859-1";
+
+ul{
+	list-style-type:none;
+	padding:2px;
+	margin-left:4px;
+}
+li{
+	padding:4px;
+}
+#container{
+	background-color:#66ccff;
+	border:1px solid black;
+	width:auto;
+	height: 720px;
+	
+	}
+#logo{
+	width: 200px;
+	text-align: left;
+	}
+p{
+		font-size:20px;
+		font-family: Timesof NewRoman;
+		
+	}
+h1{
+	background-color:white;
+	color: black;
+	height:35px;	
+	text-align:center;
+}
+#content{
+	border:2px solid black;
+	width:825px;
+	height: 475px;
+	background-color:white;
+	margin-left:10px;
+	margin-right:10px;
+	margin-bottom:10px;
+	padding:12px;
+	
+	}
+#navigation{
+	border: 2px solid black;
+	padding-top: 20px;
+	float:left;
+    background-color: #66ccff;
+    width:148px;
+    height:425px;
+	}
+#main{
+	
+	border:2px solid ;
+	width:635px;
+	height:425px;
+	float:right;
+	padding:10px;
+}
+#footer{
+	text-align:right;
+	background-color: white;	
+	color:black;
+	
+	}
+#displayclock{
+	text-align:center;
+	font-weight:bold;
+	font-size:20px;
+	
+	color:black;
+	
+	}
+.contactdetails{
+
+	text-decoration:none;
+	border: 3px solid black;
+	padding:0 25px;
+	border-radius: 25px;
+	background-color: white;
+	
+	
+}
+
+.about{
+
+	text-decoration:none;
+	border: 3px solid black;
+	padding:0 33px;
+	border-radius: 25px;
+	background-color: white;
+	
+}
+.profile{
+
+	text-decoration:none;
+	border: 3px solid black;
+	padding:0 28px;
+	border-radius: 25px;
+	background-color: white;
+	
+}
+.downloadfile{
+
+	text-decoration:none;
+	border: 3px solid black;
+	padding:0 25px;
+	border-radius: 25px;
+	background-color: white;
+}
+.deletefile{
+
+	text-decoration:none;
+	border: 3px solid black;
+	padding:0 38px;
+	border-radius: 25px;
+	background-color: white;
+}
+.settings{
+
+	text-decoration:none;
+	border: 3px solid black;
+	padding:0 24px;
+	border-radius: 25px;
+	background-color: white;
+}
+.maps{
+
+	text-decoration:none;
+	border: 3px solid black;
+	padding:0 30px;
+	border-radius: 25px;
+	background-color: white;
+	
+}
+.calendar{
+
+	text-decoration:none;
+	border: 3px solid black;
+	padding:0 19px;
+	border-radius: 25px;
+	background-color: white;
+	
+}
+
